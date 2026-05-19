@@ -1,4 +1,4 @@
-package com.example.maceswap
+package com.example
 
 import net.fabricmc.api.ClientModInitializer
 import net.fabricmc.fabric.api.event.player.AttackEntityCallback
@@ -9,7 +9,7 @@ import net.minecraft.util.ActionResult
 import net.minecraft.util.Hand
 import net.minecraft.item.Items
 
-class MaceSwapMod : ClientModInitializer {
+class MaceSwapGemini : ClientModInitializer {
     override fun onInitializeClient() {
         AttackEntityCallback.EVENT.register { player, world, hand, entity, hitResult ->
             if (world.isClient && hand == Hand.MAIN_HAND) {
