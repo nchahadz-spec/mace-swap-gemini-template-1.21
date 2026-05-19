@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "maceswap",
+  "version": "1.0.0",
+  "name": "Mace Swap Mod",
+  "description": "Tu dong doi sang Chuy khi tan cong bang Kiem hoac Riu.",
+  "authors": [
+    "Ten Cua Ban"
+  ],
+  "contact": {
+    "homepage": ""
+  },
+  "license": "MIT",
+  "icon": "assets/maceswap/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.maceswap.MaceSwapMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "~1.21",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
